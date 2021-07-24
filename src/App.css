@@ -1,0 +1,301 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myNav
+{
+    width:100%;
+    height:100px;
+    box-shadow:
+  0 7px 30px -10px rgba(150,170,180,0.5);
+   
+}
+.inner-nav
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+
+}
+.img-div
+{
+    flex:30%;
+   min-height: 100px;
+    
+}
+.button-div
+{
+    flex:50%;
+    min-height: 100px;
+    
+    
+}
+.image
+{
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+span
+{
+    margin-left: 20px;
+  
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+button
+{
+    padding: 7px 12px;
+    width:120px;
+    height:40px;
+    border-radius: 30%;
+    border:none;
+    outline: none;
+  
+
+}
+  
+  .common
+{
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+
+}
+#login
+{
+    color:navy;
+    background-color: white;
+    border:2px solid navy;
+    /* font-weight: bold; */
+    border-radius: 5px;
+}
+#login:hover
+{
+    background-color: #4C4C6D;
+    color:white
+}
+
+#register
+{
+    background-color: #4C4C6D;
+    color:white;
+    border-radius: 5px;
+}
+
+.blackish
+{
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    height:500px;
+    left: 0;
+    background:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#LoginForm
+{
+    position: relative;
+    height:500px;
+    width:400px;
+    /* background-color: grey; */
+    bottom:10%;
+    box-shadow:
+    0 7px 30px -10px rgba(150,170,180,0.5);
+    /* display: none; */
+    
+
+}
+.main-login
+{
+    width:400px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: none; */
+    
+
+
+}
+.top-part
+{
+    flex:30%;
+    min-height:180px;
+    
+}
+.middle-part
+{
+    flex:40%;
+    min-height:220px ;
+   
+}
+.bottom-part
+{
+    flex:20%;
+    min-height: 100px;
+    
+}
+.heading h1
+{
+    text-align: center;
+    color:#595260;
+}
+.imges
+{
+    width:30px;
+    height:30px;
+}
+.googles , .linked
+{
+    display:flex;
+    width:80%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:7px;
+    margin-left: 40px;
+    border:0.5px solid darkgray;
+    border-radius: 10px;
+}
+.googles:hover , .linked:hover
+{
+    border:0.5px solid black;
+}
+p
+{
+    color:grey;
+    font-size: 20px;
+}
+
+#form-part
+{
+    display:flex;
+    width:80%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:5px;
+    margin-left: 40px;
+}
+input
+{
+    border:none;
+    outline: none;
+    background-color: #EEEEEE;
+    height:40px;
+    width:100%;  
+}
+#mail , #pass, #btn
+{
+    margin-top:20px;
+    border-radius: 5px;
+}
+#btn
+{
+    height:50px;
+    width:100%; 
+    border:none;
+    outline: none;
+    background-color: #334257;
+    color:white;
+    font-size: 23px;
+    border-radius: 10px;
+}
+#bottom p
+{
+    /* display:flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+    font-size: 15px;
+    margin-top:5px;
+   
+
+}
+#signupForm{
+
+
+position: relative;
+height:500px;
+width:400px;
+/* background-color: grey; */
+bottom:10%;
+box-shadow:
+0 7px 30px -10px rgba(150,170,180,0.5);
+display: none;
+}
+.main-signup
+{
+    width:400px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.top
+{
+    
+    flex:3%;
+    min-height:30px;
+}
+.middle
+{
+    flex:70%;
+    min-height:280px ;
+}
+.bottom
+{
+    flex:2%;
+    min-height: 20px;
+    
+}
+.top h1
+{
+    text-align: center;
+    color:#595260;
+}
+#form-part-two
+{
+    display:flex;
+    width:80%;
+    min-height:280px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:10px;
+    margin-left: 40px;
+}
+#mailId , #Password, #Btn2, #name , #confirmPass , #Phone
+{
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+#Btn2
+{
+    height:50px;
+    width:100%; 
+    border:none;
+    outline: none;
+    background-color: #334257;
+    color:white;
+    font-size: 22px;
+    border-radius: 10px;
+
+}
+.fa-times
+{
+    color:grey;
+    height:50px;
+    width:30px;
+}
